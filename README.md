@@ -1,1 +1,1 @@
-just a simple linux managment api, written in python
+just a simple linux managment api, written in python and flask
