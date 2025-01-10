@@ -9,6 +9,7 @@ So far:
       Uptime
       Current processes
       Reboot remote server
+      kill a process
       Run a shell command
 
 
