@@ -1,3 +1,6 @@
+sample tests to run on each route
+
+
 curl -X GET "http://<your-ip>:8080/list_dir?path=/home/user&username=admin&password=password"
 curl -X DELETE "http://<your-ip>:8080/remove_file?path=/home/user/example.txt&username=admin&password=password"
 curl -X POST "http://<your-ip>:8080/upload_file?path=/home/user&username=admin&password=password" \
