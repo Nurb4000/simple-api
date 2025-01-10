@@ -10,6 +10,7 @@ from routes import (
     execute_command,
     system_uptime,
     reboot_device,
+    kill_process,
 )
 
 app = Flask(__name__)
@@ -22,6 +23,7 @@ running_processes.register_routes(app)
 execute_command.register_routes(app)
 system_uptime.register_routes(app)
 reboot_device.register_routes(app)
+kill_process.register_routes(app)
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)
