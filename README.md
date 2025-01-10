@@ -8,6 +8,7 @@ So far:
       Remove files
       Uptime
       Current processes
+      Reboot remote server
       Run a shell command
 
 
