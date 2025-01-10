@@ -1,0 +1,9 @@
+curl -X GET "http://<your-ip>:8080/list_dir?path=/home/user&username=admin&password=password"
+curl -X DELETE "http://<your-ip>:8080/remove_file?path=/home/user/example.txt&username=admin&password=password"
+curl -X POST "http://<your-ip>:8080/upload_file?path=/home/user&username=admin&password=password" \
+     -F "file=@/path/to/local/file.txt"
+curl -X GET "http://<your-ip>:8080/download_file?path=/home/user/example.txt&username=admin&password=password" \
+     --output example.txt
+curl -X GET "http://<your-ip>:8080/running_processes?username=admin&password=password"
+curl -X GET "http://<your-ip>:8080/execute_command?command=ls%20-l&username=admin&password=password"
+curl -X GET "http://<your-ip>:8080/system_uptime?username=admin&password=password"
