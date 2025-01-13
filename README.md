@@ -1,7 +1,7 @@
 just a simple Linux management API, written in python and flask, that offers endpoints of things i personally find useful.
 
 So far:
-      simple authentication 
+      simple authentication
       File listings
       Download files
       Upload files
