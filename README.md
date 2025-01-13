@@ -11,6 +11,7 @@ So far:
           Current processes
           Reboot remote server
           kill a process
+          shutdown remote device
           Run a shell command
 
   more to come!
