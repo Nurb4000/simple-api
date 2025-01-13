@@ -1,7 +1,7 @@
 just a simple Linux management API, written in python and flask, that offers endpoints of things i personally find useful.
 
 So far:
-
+      simple authentication 
       File listings
       Download files
       Upload files
@@ -11,6 +11,4 @@ So far:
       Reboot remote server
       kill a process
       Run a shell command
-
-
   more to come!
